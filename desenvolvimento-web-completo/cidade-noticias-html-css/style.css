@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fff url(images/fundo.png) repeat-x left top;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+header {
+    background: url(images/detalhe-topo.png) no-repeat top right;
+    width: 750px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+h1 {
+    background: url(images/logo.png) no-repeat bottom;
+    width: 152px;
+    height: 91px; /* margin-top: 25px */
+    text-indent: -3000px;
+}
+
+h2 {
+    background-color: #294c71;
+    color: #fff;
+    font-size: 1.1em;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+h3 {
+    color: #3e7ab9;
+    font-size: 0.72em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+#main-menu a{
+    background: firebrick url(images/divisor.png) repeat-y left top;
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+    margin-top: 40px;
+    float: left;
+}
+
+#main-menu a:hover, #main-menu .current-page {
+    background-color: crimson;
+    color: rgb(75, 0, 15);
+    padding: 10px 16px;
+    border-radius: 0 0 10% 10%;
+}
+
+#main-menu .current-page {
+    color: white;
+}
+
+/* ----- end main menu ----- */
+
+/* ----- start page body ----- */
+.page-body {
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+
+/* ----- start main ----- */
+main {
+    float: right;
+}
+
+/* ----- start columns ----- */
+.main-columns {
+    width: 270px;
+    float: left;
+    margin-left: 15px;
+}
+
+.side-column {
+    width: 180px;
+    float: left;
+}
+
+.box-content {
+    background: url(images/fundo-caixa.png);
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.content {
+    background-color: #fff;
+    padding: 5px;
+}
+
+.content span {
+    background-color: crimson;
+    font-size: 0.8em;
+    padding: 2px;
+}
+
+.content span#destaque {
+    color: white;
+}
+
+.primary img {
+    width: 100%;
+}
+
+.primary a {
+    color: crimson;
+}
+
+.secondary ul, .side ul {
+    list-style: none;
+}
+
+.secondary ul li {
+    height: 67px;
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+}
+
+.secondary ul li img {
+    width: 40%;
+    margin-right: 5px;
+    float: left;
+}
+
+.secondary ul li p {
+    font-size: 0.7em;
+}
+
+.side ul li {
+    padding: 8px 5px;
+}
+
+.side ul li a:hover {
+    background: url(images/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #bebebe;
+}
+
+.side ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.news label {
+    font-weight: bold;
+}
+
+.news #email {
+    padding: 3px;
+    width: 94%;
+}
+
+.news #cadastrar {
+    background-color: crimson;
+    border-color: firebrick;
+    color: white;
+    padding: 3px 10px;
+    margin-top: 5px;
+}
+
+footer {
+    background-color: #294c71;
+    padding: 15px;
+    clear: both;
+}
+
+footer p {
+    color: #fff;
+    width: 750px;
+    margin: 0 auto;
+}
